@@ -171,10 +171,11 @@ a:hover {
     /* 메인 영역 */
     .gift_show_container .main {
         padding: 30px 35px;
+        overflow: hidden;
     }
 
     .gift_show_container .main .main_contnets {
-        margin: 15px 0px;
+        margin: 15px auto;
     }
 
     .gift_show_container .main .main_left_contents,
@@ -187,13 +188,13 @@ a:hover {
     .gift_show_container .main .main_left_contents .content,
     .gift_show_container .main .main_right_contents .content {
         width: 80%;
-        margin: 0 auto;
+        margin: auto;
     }
 
     .gift_show_container .main .main_left_contents img,
     .gift_show_container .main .main_right_contents img {
-        width: 138px;
-        height: 116px;
+        width: 100%;
+        height: auto;
     }
 
     .gift_show_container .main .main_left_contents p,
