@@ -147,7 +147,8 @@ a:hover {
 
     /* 해더 카테고리 영역 */
     .gift_show_container .header_category {
-        font-size: 12px;
+        font-size: 14px;
+        margin-top: 30px;
     }
 
     .gift_show_container .header_category .hc_top {
