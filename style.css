@@ -193,7 +193,6 @@ a:hover {
     .gift_show_container .main .main_right_contents img {
         width: 138px;
         height: 116px;
-
     }
 
     .gift_show_container .main .main_left_contents p,
@@ -201,8 +200,8 @@ a:hover {
         color: #575656;
         font-size: 12px;
         border-bottom: 1px solid #575656;
-        /* width: 80%; */
         text-align: center;
         margin: 10px auto;
+        padding-bottom: 10px;
     }
 }
