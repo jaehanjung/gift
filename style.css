@@ -147,13 +147,13 @@ a:hover {
 
     /* 해더 카테고리 영역 */
     .gift_show_container .header_category {
-        font-size: 14px;
+        font-size: 13px;
         margin-top: 30px;
     }
 
     .gift_show_container .header_category .hc_top {
         text-align: center;
-        padding: 10px 20px;
+        padding: 10px 15px;
         border-bottom: 1px solid #000;
     }
 
@@ -170,35 +170,56 @@ a:hover {
 
     /* 메인 영역 */
     .gift_show_container .main {
-        padding: 30px 35px;
         overflow: hidden;
+        display: table;
+        padding: 10px;
+        background: #fff;
+        width: 100%;
     }
 
     .gift_show_container .main .main_contnets {
         margin: 15px auto;
+        position: relative;
+        width: 100%;
+        display: table;
+        text-align: center;
+        padding: 0 20px;
+        background: #fff;
     }
 
     .gift_show_container .main .main_left_contents,
     .gift_show_container .main .main_right_contents {
-        width: 50%;
         text-align: center;
         float: left;
+        width: 50%;
+        display: inline-table;
+        padding: 10px;
     }
 
-    .gift_show_container .main .main_left_contents .content,
-    .gift_show_container .main .main_right_contents .content {
-        width: 80%;
+    .gift_show_container .main .main_left_contents .content_img,
+    .gift_show_container .main .main_right_contents .content_img {
         margin: auto;
+        width: 100%;
+        position: relative;
+        height: 140px;
+        max-height: 140px;
     }
 
     .gift_show_container .main .main_left_contents img,
     .gift_show_container .main .main_right_contents img {
         width: 100%;
         height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-height: 100%;
     }
 
-    .gift_show_container .main .main_left_contents p,
-    .gift_show_container .main .main_right_contents p {
+    .gift_show_container .main .main_left_contents .content_text,
+    .gift_show_container .main .main_right_contents .content_text {
         color: #575656;
         font-size: 12px;
         border-bottom: 1px solid #575656;
